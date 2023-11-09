@@ -1,3 +1,9 @@
+/********************************************************************************************************
+        Author: Coder LSF (Liu Shaofeng)
+          Date: 2023/11/09
+         Brief: Implements a class template of hashmap with high performance
+ ********************************************************************************************************/
+
 #pragma once
 
 #include <stdint.h>
