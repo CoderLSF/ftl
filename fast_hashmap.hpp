@@ -182,7 +182,7 @@ class FastHashMap {
         std::unique_ptr<ListNode>   next;
     };
 
-    struct Bucket {
+    struct Bucket { // sizeof(Bucket) == 64 which is the size of a CPU cache line
         uint8_t   kv_num = 0;
         uint8_t   hash_heads[7];
 
